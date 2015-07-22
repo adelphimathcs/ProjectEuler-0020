@@ -30,7 +30,7 @@ Now that you have added your solution locally, you need to push it to the main r
 ```
 git add ./*
 git commit -a -m 'message explaining what you added'
-git push
+git push origin master
 ```
 
 
