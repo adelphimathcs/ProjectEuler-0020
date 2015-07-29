@@ -1,6 +1,6 @@
 class Integer
   def factorial
-    (1..self).inject{ |result,num| result*num}
+    (1..self).inject(:*)
   end
 
   def sum_digits
